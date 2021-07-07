@@ -1,0 +1,58 @@
+label {
+  color: white;
+}
+
+ul {
+  margin-top: 1rem;
+}
+
+li input {
+  margin-left: 2rem;
+}
+
+#r-label {
+  margin-right: 2rem;
+}
+
+form {
+  padding-top: 1rem;
+}
+
+main {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+div div {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1172px) {
+  li input {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 1092px) {
+  li input {
+    margin-left: 0.9rem;
+  }
+}
+
+@media (max-width: 1086px) {
+  li input {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 688px) and (min-width: 605px) {
+  main div {
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 604px) {
+  main {
+    text-align: center;
+  }
+}
